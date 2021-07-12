@@ -399,7 +399,7 @@ body = html.Div([
                     "El Acoso sexual es uno de los delitos más graves de la violencia de género que se vive en el país, "
                     "además, son problemas aún irresueltos y son tema central de la " 
                     "agenda legislativa, pero hoy alcanzan relevancia en la agenda seguridad pública del país, también. "
-                   "La violencia familiar tiene la más alta incidencia entre los delitos de género en el país."+
+                  
       " Entre 2015 y 2021 se registraron "+ str(f"{int(TOTACOSOSEX):,}") +" casos, lo que representa una tasa de "+
        str(TASAACOSOSEX) +" delitos por cada 100 mil habitantes. "+
                   
