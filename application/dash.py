@@ -747,7 +747,7 @@ body = html.Div([
                         'width': '550px',
                         
                          }, disabled=True)),
-                     html.Br(),
+                     
           ]),
     
      dbc.Row(
