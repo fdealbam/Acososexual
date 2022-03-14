@@ -736,8 +736,8 @@ body = html.Div([
           dbc.Col(dbc.Button(([html.P("México", style={"font-size": 30,"color": "black","background-color": "white"}),
                        dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/mx.jpeg?raw=true",
                                     style={'size': 2,}),
-                                     html.Br(),
-                                     html.Br(),
+                                    
+                                
                                    
                         html.P(bulletedo2,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
