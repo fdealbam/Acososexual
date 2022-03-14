@@ -774,7 +774,7 @@ body = html.Div([
                          "box-shadow": "10px 20px 30px black",
                         # 'margin-left': '10px',
                         'width': '550px',
-                         } disabled=True)),
+                         }, disabled=True)),
            ]),
     html.Br(),
     html.Br(),
