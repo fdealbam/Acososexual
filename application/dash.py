@@ -548,7 +548,7 @@ body = html.Div([
                     "Este tablero analítico se compone de una sección en la cual tratamos la Acoso sexual, observamos "
                     "su gravedad según intervalos anuales o mensuales; incluimos el análisis detallado de cuatro "
                     "entidades con más incidencias de este delito.""; finalmente, comparamos los rankings por entidad "
-                    "según sumas del periódo 2015 al 2021 con las tasas por entidad del mismo intervalo. " 
+                    "según sumas del periodo 2015 al 2021 con las tasas por entidad del mismo intervalo. " 
                     " "                    
                     "Hoy existen cada vez mayor atención institucional para atender la violencia contra las mujeres y son fuerte "
                     "preocupación de la sociedad, esto último se evidencia en el hecho que todos seamos más vigilantes al respecto. "
@@ -737,8 +737,7 @@ body = html.Div([
                        dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/mx.jpeg?raw=true",
                                     style={'size': 2,}),
                                     
-                                
-                                   
+                                                                
                         html.P(bulletedo2,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
@@ -773,10 +772,9 @@ body = html.Div([
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
                          "box-shadow": "10px 20px 30px black",
-                         'margin-left': '300px',
+                        # 'margin-left': '10px',
                         'width': '550px',
-                         
-                         }, disabled=True)),
+                         } disabled=True)),
            ]),
     html.Br(),
     html.Br(),
