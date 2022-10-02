@@ -724,8 +724,8 @@ body = html.Div([
        html.Br(),
        html.Br(),
      dbc.Row([
-     dbc.Col(dbc.Button(([html.P("Ciudad de México", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/cdmx.jpeg?raw=true",
+     dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/Mapa México.png?raw=true",
                   style={'size': 2,}),
                        html.P(bulletedo1,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -735,8 +735,8 @@ body = html.Div([
                         'width': '550px',
                          
                          }, disabled=True)),
-          dbc.Col(dbc.Button(([html.P("México", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/mx.jpeg?raw=true",
+          dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/Mapa Ciudad de México.png?raw=true",
                                     style={'size': 2,}),
                                     
                                                                 
@@ -752,8 +752,8 @@ body = html.Div([
           ]),
     
      dbc.Row(
-           [          dbc.Col(dbc.Button(([html.P("Querétaro", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/qro.jpeg?raw=true",
+           [          dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/Mapa Querétaro.png?raw=true",
     
               
                   style={'size': 2,}),
@@ -766,8 +766,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                       
-               dbc.Col(dbc.Button(([html.P("Jalisco", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/jlo.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Acososexual/blob/main/application/static/Mapa Nuevo León.png?raw=true",
                        style={'size': 2,}),
                     
                           html.P(bulletedo4,
